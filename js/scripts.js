@@ -2,6 +2,7 @@
 var list = [];
 var findOnes = /[1]/g;
 var findZeros = /[0]/g;
+var findBoth = /[01]/g;
 //
 function entryNumber(input) {
   // debugger;
@@ -10,6 +11,8 @@ function entryNumber(input) {
       list.push("Boop!")
     } else if (i.toString().match(findZeros)) {
       list.push("Beep!")
+    } else if (i.toString().match(findBoth)) {
+      list.push("Boop!Beep!")
     } else if (i % 3 === 0) {
       list.push("I'm sorry, Dave. I'm afraid I can't do that.")
     } else {
