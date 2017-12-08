@@ -14,8 +14,8 @@
 
 | Behavior  | Input  | Output  |
 |---|---|---|
-|  A user can enter a number and BeepBoop (hereafter called "BB") will return said number | 3  | 3  |
-|  A user can enter a number and BeepBoop (hereafter called "BB") will count up to the provider number in an output list | 3  | 1, 2, 3  |
+|  A user can enter a number and BeepBoop (hereafter called "BB") will return said number | 3  | 3  | X |
+|  A user can enter a number and "BB" will count up to the provider number in an output list | 3  | 1, 2, 3  |
 |  A user can enter a new number and see new results over and over again | 1st entry: 3 \ 2nd entry: 4  | 1st output: 1, 2, 3 \ 2nd output: 1, 2, 3, 4  ||
 |  BB will replace numbers that contain a 1 with "Boop!" | 3 | Boop!, 2, 3  |
 |  BB will replace numbers that contain a 0 with "Beep!" | 15 | Boop, 2, 3, 4, 5, 6, 7, 8, 9, Beep!, 11, 12, 13, 14, 15  |
