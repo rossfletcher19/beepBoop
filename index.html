@@ -2,9 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>BeepBoop!</title>
   </head>
   <body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <!-- <h1>Lets Play BeepBoop!!</h1> -->
+      </div>
+      <!-- firstRow -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              Enter a number and you're on your way!!
+            </div>
+            <div class="panel-body">
+              <form id="numberEntry">
+                <div class="form-group">
+                  <label for="number">Enter your number</label>
+                  <input type="number" class="form-control" id="string">
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- secondRow -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              Here are your results!!!
+            </div>
+            <div class="panel-body">
+              <div id="results">
 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
