@@ -19,7 +19,7 @@
 |  A user can enter a new number and see new results over and over again | 1st entry: 3 \ 2nd entry: 4  | 1st output: 1, 2, 3 \ 2nd output: 1, 2, 3, 4  ||
 |  BB will replace numbers that contain a 1 with "Boop!" | 3 | Boop!, 2, 3  | X |
 |  BB will replace numbers that contain a 0 with "Beep!" | 15 | Boop, 2, 3, 4, 5, 6, 7, 8, 9, Beep!, 11, 12, 13, 14, 15  | X |
-|  BB will replace numbers that are divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that." | 9  | Boop, 2, "I'm sorry, Dave. I'm afraid I can't do that.", 4, 5, "I'm sorry, Dave. I'm afraid I can't do that.", 7, 8, "I'm sorry, Dave. I'm afraid I can't do that."  |
+|  BB will replace numbers that are divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that." | 9  | Boop, 2, "I'm sorry, Dave. I'm afraid I can't do that.", 4, 5, "I'm sorry, Dave. I'm afraid I can't do that.", 7, 8, "I'm sorry, Dave. I'm afraid I can't do that."  | X |
 
 
 ## Setup/Installation Requirements
